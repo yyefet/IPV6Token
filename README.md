@@ -83,6 +83,24 @@ The receiver (ie: processing party) would process the request and respond with t
 quote:3,291.47
 ```
 
-# Standard crypto methods for use in headers
+# List of Standard Crypto methods for use in headers
 
 ## quote()
+
+## address()
+
+## tx()
+
+## gas()
+
+## convert()
+
+## token()
+
+## supply()
+
+## marketcap()
+
+## holders()
+
+## transfers()
