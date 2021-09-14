@@ -89,6 +89,8 @@ quote:3,291.47
 
 ## address()
 
+## approve()
+
 ## tx()
 
 ## gas()
@@ -104,3 +106,7 @@ quote:3,291.47
 ## holders()
 
 ## transfers()
+
+## encrypt()
+
+## decrypt()
