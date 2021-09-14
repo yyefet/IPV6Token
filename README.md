@@ -60,3 +60,29 @@ Furthermore, this type of transaction can also be split into multiple IPV6 packe
 timeframe (to reduce risk).
 
 
+# Blockchain Crypto Headers
+
+The standard must be applicable in many programming languages, easy to read and write, and
+be applicable to multiple blockchains (ie: Bitcoin, Ethereum, Polygon, Cardano, Binance, Doge, Solana etc).
+
+The formatting of a custom IPV6 Crypto header is a stadard that anyone can easily implement and author.
+
+```bash
+For example, using Scapy (python library to forlumate IPV6 packet):
+
+p = IPv6(dst='2600::89f::db01::72b3:8cb2')
+query = 'quote("ETH/USD", "ether")'
+send(p/IPv6ExtHdrDestOpt(options=PadN(optdata=query)))
+```
+In the example above, one would initiate an IPV6 connection as normal..
+Then formulate a query and send using the padded `IPv6ExtHdrDestOpt` options method.
+
+The receiver (ie: processing party) would process the request and respond with the data in the following format:
+
+```bash
+quote:3,291.47
+```
+
+# Standard crypto methods for use in headers
+
+## quote()
