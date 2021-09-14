@@ -70,9 +70,9 @@ The formatting of a custom IPV6 Crypto header is a stadard that anyone can easil
 ```bash
 For example, using Scapy (python library to forlumate IPV6 packet):
 
-p = IPv6(dst='2600::89f::db01::72b3:8cb2')
+packet = IPv6(dst='2600::89f::db01::72b3:8cb2')
 query = 'quote("ETH/USD", "ether")'
-send(p/IPv6ExtHdrDestOpt(options=PadN(optdata=query)))
+send(packet/IPv6ExtHdrDestOpt(options=PadN(optdata=query)))
 ```
 In the example above, one would initiate an IPV6 connection as normal..
 Then formulate a query and send using the padded `IPv6ExtHdrDestOpt` options method.
