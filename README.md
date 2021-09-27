@@ -10,15 +10,25 @@
                                                                                
 ```
 # What is IPV6 Token Project?
-IPV6 Token Project aims to bring blockchain and crypto to a lower level of the network stack.
-Currently, blockchain interaction lives on layer 7, which is typically blocked by corporate networks,
-and also is easier to attack with mitm (man in the middle).  Using IPV6 (Internet Protocol) brings
-numerous advances to communication, most importantly, encrypted custom headers.
-Two parties are also able to use stegangraphy (the science of hiding messages) in custom destination 
-headers to secure interactions.
+IPV6 Token Project aims to bring blockchain and crypto to a lower level of the network stack as well
+as being the first Enterprise-ready blockchain managed by IT and HR departments.
 
-Instead of going from Browser -> DAPP/DEFI/WALLET (which is unsecure)...
-Or project aims to create standards of communication from IPV6 Protocol -> DAPP/DEFI/WALLET using secure headers.
+Corporations tend to manage their own infrastructure for security purposes and integrating their 
+human resource-based transactions into existing blockchains is currently frowned upon.  IPV6 Token aims 
+to issue corporate sidechains that are fully managed by IT and HR departments to alleviate any security
+concerns.
+
+Existing blockchain interaction lives on layer 7, which is typically blocked by corporate networks due to
+the fact that they are prone to mitm (man in the middle) attacks.  Using IPV6 (Internet Protocol) brings
+numerous advances to communication, most importantly, symmetric and asymmetric excryption via custom headers.
+Two parties are able to use stegangraphy (the science of hiding messages) in these custom destination 
+headers to secure transactions with the blockchain.
+
+Instead of going from Browser -> DAPP/DEFI/WALLET (which is insecure), IPV6 token project aims to create 
+standards of communication over the network from IPV6 Protocol -> DAPP/DEFI/WALLET using secure headers.
+
+This means exisitng protocols such as LDAP can be integrated into the blockchain, mapping employees,
+contractors, and vendors into their own managed sidechain.
 
 # How Standard IPV6 Crypto Headers work
 
